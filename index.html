@@ -1,38 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Head Section remains the same -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgios Rouvas</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            height: 100%;
+        }
+
+        .sidebar {
+            background-color: #f4f4f4;
+            width: 250px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        header, footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        h2, h3 {
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Profile</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
+        <h1>Georgios Rouvas</h1>
     </header>
 
-    <section class="container">
-        <h2>About Me</h2>
-        <!-- Your About Me Content -->
-        
-        <h3>Employment</h3>
-        <p>Web Developer Mar 2023 - Present</p>
-        <p>National Research & Technological Development Center EKETA-CERTH(ITI), Thessaloniki, Greece</p>
-        <!-- More employment details... -->
+    <div class="container">
+        <div class="sidebar">
+            <h2>Personal Details</h2>
+            <p>GEORGIOS ROUVAS</p>
+            <p>rouvasgr@gmail.com</p>
+            <p>6940169342</p>
+            <p>54635 Thessaloniki, Greece</p>
+            <a href="https://linkedin.com/in/rouvasgiorgos">LinkedIn</a>
+            <a href="https://github.com/giorgosrv">GitHub</a>
+            <h3>Language</h3>
+            <p>English</p>
+            <p>Greek Mother Tongue</p>
+            <h3>Skills</h3>
+            <p>Languages: TypeScript, HTML, SCSS, C#, Java, Sql</p>
+            <p>Frameworks/Libraries: Angular, .Net, Spring Boot</p>
+            <p>Tools: Git, Docker, Tableau, Visual Paradigm, Microsoft Azure, Postman</p>
+            <h3>Soft Skills</h3>
+            <p>Adaptable, Logical Thinking, Decision Making, Teamwork, Time Management</p>
+        </div>
 
-        <h3>Education</h3>
-        <!-- Your Education Details -->
+        <div class="main-content">
+            <h2>Employment</h2>
+           Web Developer Mar 2023 - Present
+National Research & Technological Development Center EKETA-CERTH(ITI), 
+Thessaloniki, Greece
+Collaboration & Coordination:
+Collaborate with other team members and stakeholders.
+Work with back-end developers to integrate UI components with APIs and 
+databases.
+Participate in project meetings to discuss user requirements and project 
+objectives.
+Development & Design:
+Ensure the technical feasibility of UI/UX designs.
+Build reusable code and libraries for future use.
+Computer Science department , Ionian 
+University Internship program.
+Jun 2019 - Aug 2019
+IT Support - DTS Group, Kastoria , Greece
 
-        <h3>Certificates</h3>
-        <!-- Your Certificates Details -->
+            <h2>Education</h2>
+            MS Information Systems Feb 2022 - Present
+University of Macedonia, Thessaloniki, Greece
+BSc in Computer Science Oct 2016 - Oct 2021
+Ionian University, Corfu, Greece
 
-        <h2>Contact Information</h2>
-        <p>Email: rouvasgr@gmail.com</p>
-        <p>Phone: 6940169342</p>
-    </section>
+            <h2>Certificates</h2>
+            Regeneration Academy on Cloud Tools & 
+Technology
+Nov 2022 - Dec 2022
+Training from Microsoft
+Java and Spring Academy May 2022 - Jun 2022
+Training from University of Macedonia
+Advanced Ethical Hacking Dec 2021 - Dec 2021
+Seminar from Audax cybersecurity
+        </div>
+    </div>
 
     <footer>
         <p>Thank you for visiting my profile!</p>
